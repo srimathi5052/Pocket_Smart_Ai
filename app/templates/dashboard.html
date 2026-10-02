@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <main class="card dashboard">
+      <h1>{{ welcome_message }}</h1>
+      <div class="stats">
+        <div class="stat-box">
+          <span class="label">Budget</span>
+          <strong>$4,200</strong>
+        </div>
+        <div class="stat-box">
+          <span class="label">Saved</span>
+          <strong>$1,150</strong>
+        </div>
+        <div class="stat-box">
+          <span class="label">Ideas</span>
+          <strong>12</strong>
+        </div>
+      </div>
+      <div class="actions">
+        <a href="/">Home</a>
+        <a href="/login">Login</a>
+      </div>
+    </main>
+  </body>
+</html>
